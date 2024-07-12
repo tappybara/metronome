@@ -30,7 +30,7 @@ function App() {
       <select
         onChange={(e: React.FormEvent<HTMLSelectElement>) => {
           const number = Number(e.currentTarget.value);
-          // not sure if this is the best way
+          // probably needs to be a type
           if (number !== 4 && number !== 6) {
             throw new Error("no!");
           }
