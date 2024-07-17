@@ -1,0 +1,60 @@
+.inner-circle {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+    border: 20px solid navy;
+}
+
+.input-container {
+    display: flex;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    
+    input {
+        font-size: 125px;
+        width: inherit;
+        text-align: center;
+        border: none;
+        background-color: transparent;
+    }
+}
+
+.bpm {
+    > input {
+        color: white;
+        font-size: 50px;
+    }
+}
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+
+    > img {
+        height: 50px;
+        filter: invert(1);
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.play {
+
+    > img {
+        height: 150px;
+        width: 150px;
+        filter: invert(1);
+    }
+}
